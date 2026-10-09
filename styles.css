@@ -1,0 +1,39 @@
+:root {
+  color-scheme: light;
+  font: 1.125rem / 1.6 system-ui, sans-serif;
+  color: #1f2937;
+  background: #ffffff;
+}
+
+body {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  overflow-wrap: anywhere;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: #1456ad;
+}
+
+a[aria-current="page"] {
+  font-weight: bold;
+}
+
+:focus-visible {
+  outline: 2px solid #1456ad;
+  outline-offset: 4px;
+}
+
+h1,
+h2 {
+  line-height: 1.3;
+}
+
